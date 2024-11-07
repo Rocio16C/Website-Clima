@@ -43,7 +43,7 @@ export function fetchClimas (ciudad, setDays, date, setAvailableDates){
 
   const apiKey = 'c6e6ea38f2b1c7d8b4bcfdd4ba93ea43';
 
-  fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&units=metric&lang=sp`)
+  fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&units=metric&lang=sp`)
       .then(p => p.json())
       .then((producto) => {
         if(producto.list !== undefined){
