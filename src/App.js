@@ -68,7 +68,7 @@ function App() {
 
       return () => clearTimeout(timeGeo);
     }
-  }, [cityGeo, selectedDate]);
+  }, [cityGeo]);
 
 
 
