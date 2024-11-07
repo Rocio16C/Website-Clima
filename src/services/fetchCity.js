@@ -5,7 +5,7 @@ export async function fetchCity (ciudad, setCities){
   const apiKey = 'c6e6ea38f2b1c7d8b4bcfdd4ba93ea43';
 
     try {
-      const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric&timezone=28800&lang=es`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric&timezone=28800&lang=es`);
       const recurso = await response.json();
       
         if(recurso.main !== undefined){
