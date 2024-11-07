@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Website-Clima/static/css/main.2f10b57e.css",
+    "main.js": "/Website-Clima/static/js/main.80ff60bd.js",
+    "static/js/208.4475209f.chunk.js": "/Website-Clima/static/js/208.4475209f.chunk.js",
+    "static/js/293.498e1621.chunk.js": "/Website-Clima/static/js/293.498e1621.chunk.js",
+    "static/js/917.96d6d608.chunk.js": "/Website-Clima/static/js/917.96d6d608.chunk.js",
+    "static/js/516.e186610b.chunk.js": "/Website-Clima/static/js/516.e186610b.chunk.js",
+    "static/js/519.fb48d0e3.chunk.js": "/Website-Clima/static/js/519.fb48d0e3.chunk.js",
+    "static/js/946.86989eff.chunk.js": "/Website-Clima/static/js/946.86989eff.chunk.js",
+    "static/js/160.d9e155b4.chunk.js": "/Website-Clima/static/js/160.d9e155b4.chunk.js",
+    "static/js/23.0e7e72c4.chunk.js": "/Website-Clima/static/js/23.0e7e72c4.chunk.js",
+    "static/js/453.1db16fac.chunk.js": "/Website-Clima/static/js/453.1db16fac.chunk.js",
+    "static/media/clima.png": "/Website-Clima/static/media/clima.6f0a8b228a27fae465e5.png",
+    "static/media/revicons.eot": "/Website-Clima/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Website-Clima/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Website-Clima/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Website-Clima/index.html",
+    "main.2f10b57e.css.map": "/Website-Clima/static/css/main.2f10b57e.css.map",
+    "main.80ff60bd.js.map": "/Website-Clima/static/js/main.80ff60bd.js.map",
+    "208.4475209f.chunk.js.map": "/Website-Clima/static/js/208.4475209f.chunk.js.map",
+    "293.498e1621.chunk.js.map": "/Website-Clima/static/js/293.498e1621.chunk.js.map",
+    "917.96d6d608.chunk.js.map": "/Website-Clima/static/js/917.96d6d608.chunk.js.map",
+    "516.e186610b.chunk.js.map": "/Website-Clima/static/js/516.e186610b.chunk.js.map",
+    "519.fb48d0e3.chunk.js.map": "/Website-Clima/static/js/519.fb48d0e3.chunk.js.map",
+    "946.86989eff.chunk.js.map": "/Website-Clima/static/js/946.86989eff.chunk.js.map",
+    "160.d9e155b4.chunk.js.map": "/Website-Clima/static/js/160.d9e155b4.chunk.js.map",
+    "23.0e7e72c4.chunk.js.map": "/Website-Clima/static/js/23.0e7e72c4.chunk.js.map",
+    "453.1db16fac.chunk.js.map": "/Website-Clima/static/js/453.1db16fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f10b57e.css",
+    "static/js/main.80ff60bd.js"
+  ]
+}
