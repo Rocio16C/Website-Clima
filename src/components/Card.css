@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+body{
+  background-color: #F6DD9A;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 50vw;
+}
+
+.card {
+  margin: 20px;
+}
+
+.cardShadow {
+  width: 750px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 26.6px;
+}
+
+.temperatura {
+  text-align: center;
+  margin-top: 20px;
+  /*opacity: 1;
+  transition: opacity 0.5s ease-out;*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 37.3px;
+  font-weight: 700;
+}
+
+.descripcion {
+  text-align: center;
+  text-transform: capitalize;
+  /*opacity: 1;
+  transition: opacity 0.5s ease-out;*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 26.6px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+.viento, .humedad, .presion {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22.6px;
+  /*opacity: 1;
+  transition: opacity 0.5s ease-out;*/
+}
+
+.viento .iconAir, .humedad .iconHu{
+  margin-bottom: -15px;
+  font-size: 60px;
+}
+
+.presion .iconPre{
+  font-size: 50px;
+}
+
+/*.hidden {
+  opacity: 0;
+}*/
+
+
+#iconoClima {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.spline-background{
+  height: 200vh;
+}
+
+.spline canvas {
+  margin: 0 auto;
+}
+
+.spline {
+  margin-bottom: -10px;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -180px;
+    transform: scale(0.7);
+    padding-left: -30px;
+    padding-right: -30px;
+  }
+
+  .cardShadow {
+    transform: scale(0.55);
+    margin-top: -180px;
+  }
+  
+  .card-title {
+    margin-top: 25px;
+    font-size: 25.6px;
+  }
+
+  .temperatura {
+    font-size: 60.3px;
+  }
+  
+  .descripcion {
+    font-size: 35.6px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    margin-bottom: -10px;
+  }
+
+  .humedad #humedad1{
+    font-size: 22px !important;
+  }
+
+  .humedad #humedad2{
+    font-size: 30px;
+  }
+
+  .presion #presion1{
+    font-size: 22px !important;
+  }
+
+  .presion #presion2{
+    font-size: 30px;
+  }
+
+  .viento #viento1{
+    font-size: 22px !important;
+  }
+
+  .viento #viento2{
+    font-size: 30px;
+  }
+
+  .spline canvas {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/*CELULAR*/
+@media (max-width: 767px) {
+  .row {
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -280px;
+    transform: scale(0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cardShadow {
+    transform: scale(0.4);
+    margin-top: -225px;
+  }
+  
+  .card-title {
+    margin-top: 25px;
+    font-size: 12.6px;
+  }
+
+  .temperatura {
+    font-size: 60.3px;
+  }
+  
+  .descripcion {
+    font-size: 35.6px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+  }
+
+  .humedad #humedad1{
+    font-size: 20px !important;
+  }
+
+  .humedad #humedad2{
+    font-size: 30px;
+  }
+
+  .presion #presion1{
+    font-size: 20px !important;
+  }
+
+  .presion #presion2{
+    font-size: 30px;
+  }
+
+  .viento #viento1{
+    font-size: 20px !important;
+  }
+
+  .viento #viento2{
+    font-size: 30px;
+  }
+
+  .spline canvas {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,135 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+.navbar-about {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.navbar-link {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.calendarIcon {
+  font-size: 35px !important;
+  margin-right: 150px;
+  margin-top: 25px;
+}
+
+.calendarIcon.disabled {
+  cursor: not-allowed !important;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+
+/*.css-6e9vrl-MuiDateCalendar-root {
+  position: absolute !important;
+  left: 77%;
+  margin: 20px auto !important;
+}*/
+
+.css-i5q14k-MuiDayCalendar-header {
+  margin: 0px 30px !important;
+}
+
+.css-1aqny2q-MuiPickersCalendarHeader-root {
+  padding-left: 40px !important;
+  padding-right: 25px !important;
+}
+
+.css-flbe84-MuiDayCalendar-weekContainer {
+  margin: -5px 30px !important;
+}
+
+.Mui-selected {
+  width: 33px !important;
+  height: 31px !important;
+}
+
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root {
+  width: 33px !important;
+  height: 31px !important;
+}
+
+
+
+
+
+/* Estilo para tablets (de 768px hasta 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    transform: scale(0.7);
+    margin-left: -80px;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+    margin-right: 130px;
+    margin-left: -15px;
+    white-space: nowrap;
+  }
+
+  .container .MuiDateCalendar-root{
+    transform: scale(0.8);
+    left: 62.5% !important;
+    top: 70px;
+    margin: 0 !important;
+  }
+
+  .calendarIcon {
+    font-size: 55px !important;
+    margin-right: 150px;
+    margin-top: 15px;
+  }
+}
+
+
+
+/* Estilo para móviles (menor a 768px) */
+@media (max-width: 767px) {
+  .navbar {
+    transform: scale(0.4);
+    margin-left: -97px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+    margin-right: 80px;
+    white-space: nowrap;
+    margin-top: 12px;
+  }
+
+  .container .MuiDateCalendar-root{
+    transform: scale(0.4);
+    left: 43% !important;
+    top: -25px;
+    margin: 0 !important;
+  }
+
+  .calendarIcon {
+    font-size: 55px !important;
+    margin-right: 150px;
+    margin-top: 15px;
+  }
+}

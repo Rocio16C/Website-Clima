@@ -1,0 +1,102 @@
+.loader {
+    position: fixed;
+    width: 160px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+}
+
+.loader span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px; 
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: animate 2s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate {
+    0% {
+        transform: scale(0);
+    }
+    10% {
+        transform: scale(1.2);
+    }
+    80%, 100% {
+        transform: scale(0);
+    }
+}
+
+.sun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: rotating 2s linear infinite;
+    animation-delay: -1s;
+}
+@keyframes rotating {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(370deg);
+    }
+}
+
+.icono{
+    content: '\f185';
+    font-family: fontAwesome;
+    position: absolute;
+    top: 117px;
+    left: 133px;
+    color: #fff;
+    font-size: 53.3px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .loader {
+        position: fixed;
+        width: 160px;
+        height: 160px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2000;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .loader {
+        position: fixed;
+        width: 160px;
+        height: 160px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2000;
+    }
+}

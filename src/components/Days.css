@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+.days {
+  width: 100vw !important;
+  margin-top: 50px;
+  padding-bottom: 30px !important;
+}
+
+.react-multi-carousel-track {
+  margin-left: 110px !important;
+  margin-bottom: 50px !important;
+}
+
+.days-cards {
+  justify-content: space-between;
+  margin: 20px;
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  width: 230px;
+  text-align: center;
+  text-transform: capitalize;
+  align-content: center;
+  /*background-color: #9E6105;*/
+  border: 2px solid #D9D9D9;
+  position: relative;
+  padding-top: 1px;
+  color: #F5F5F5;
+}
+
+.days-cards::after { 
+  content: '';
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #D9D9D9;
+  position: absolute;
+  top: 12%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.days-cards p {
+  margin: 0;
+}
+
+.days-cards img {
+  width: 100%;
+  height: 100%;
+}
+
+.word-large {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 6px !important;
+}
+
+.desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 6px !important;
+}
+
+.dayOfWeek {
+  margin-top: 16px !important;
+  margin-bottom: 10px !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.date {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.iconoClima {
+  margin-top: -35px !important;
+}
+
+.temp {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 26.6px;
+  margin-top: -50px !important;
+  margin-bottom: 30px !important;
+}
+
+.hour {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14.6px;
+  margin-bottom: 8px !important;
+}
+
+.react-multi-carousel-list {
+  margin: 0 auto;
+}
+
+.carousel {
+  justify-content: center !important;
+  margin-left: 66px !important;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .days {
+    transform: scale(0.8);
+    padding-left: 55px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    justify-content: center !important;
+    margin-left: 0px !important;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: calc(1% + 1px) !important;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px) !important;
+  }
+
+  .react-multi-carousel-track {
+    margin-left: 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .react-multi-carousel-list{
+    position: static !important;
+  }
+}
+
+
+
+
+@media (max-width: 767px) {
+  .days {
+    transform: scale(0.8);
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    justify-content: center !important;
+    margin-left: 0px !important;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: calc(1% + 1px) !important;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px) !important;
+  }
+
+  .react-multi-carousel-track {
+    margin-left: 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .react-multi-carousel-list{
+    position: static !important;
+  }
+}
