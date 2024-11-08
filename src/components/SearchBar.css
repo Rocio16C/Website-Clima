@@ -214,6 +214,8 @@ body {
 	animation: magnifier-in 600ms 3.6s both;
 	transform-box: fill-box;
 	transition: 1s ease-in-out;
+	pointer-events: auto;
+	translate: 425px !important;
 }
 
 
@@ -224,37 +226,21 @@ body {
 }
 
 .magnifier .glass {
-	cx: 27;
-	cy: 27;
-	r: 8;
+	cx: 23;
+	cy: 23;
+	r: 12;
 	stroke-width: 3;
 	cursor: pointer;
 }
+
 .magnifier .handle {
 	x1: 32;
 	y1: 32;
 	x2: 44;
 	y2: 44;
-	stroke-width: 3;
+	stroke-width: 5;
 }
 
-
-.circle-enviar{
-	position: absolute;
-	top: 34.2px;
-	left: 257px;
-	width: 13px;
-	height: 12.5px;
-	border-radius: 50%;
-	background: transparent;
-	border: none;
-	cursor: pointer;
-	z-index: 1;
-	outline: none;
-	animation: circle-enviar-in 600ms 3.6s both;
-	transform-box: fill-box;
-	transition: 1s ease-in-out;
-}
 
 @keyframes circle-enviar-in {
 	0% { transform: translate(20px, 8px) rotate(-45deg) scale(0.01, 0.01); }
@@ -318,15 +304,11 @@ body {
 	#search {
 		grid-template:
 			"search" 60px
-			/ 370px;
+			/ 390px;
 	}
 	
 	#search input {
-		width: 83%;
+		width: 78.5%;
 		font: 20px / 1 system-ui, sans-serif;
-	}
-
-	.circle-enviar{
-		top: 38.8px;
 	}
 }

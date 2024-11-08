@@ -107,29 +107,32 @@
 /* Estilo para móviles (menor a 768px) */
 @media (max-width: 767px) {
   .navbar {
-    transform: scale(0.4);
-    margin-left: -97px;
+    transform: scale(0.7);
     width: 100%;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
   .navbar-brand {
-    font-size: 25px;
-    margin-right: 80px;
+    font-size: 15px;
+    margin-right: 150px;
     white-space: nowrap;
-    margin-top: 12px;
+    margin-top: 20px;
   }
 
   .container .MuiDateCalendar-root{
-    transform: scale(0.4);
-    left: 43% !important;
-    top: -25px;
+    transform: scale(0.65);
+    left: 15% !important;
+    top: 95px;
     margin: 0 !important;
   }
 
   .calendarIcon {
-    font-size: 55px !important;
-    margin-right: 150px;
-    margin-top: 15px;
+    font-size: 45px !important;
+    margin-left: 400px;
+    margin-top: -60px;
   }
 }

@@ -64,13 +64,13 @@ export function configureWeather(img) {
             sceneUrl = "https://prod.spline.design/EJ7KvTPA9uEfQFix/scene.splinecode";
             background = "#020620";
             colorsDays = "#060B14";
-            colorCard = "#727583";
+            colorCard = "#8e929e";
             break;
         case '02n':
             sceneUrl = "https://prod.spline.design/3bqMunm7mLvgvaNg/scene.splinecode";
             background = "#020620";
-            colorsDays = "#06DB14";
-            colorCard = "#727583";
+            colorsDays = "#060B14";
+            colorCard = "#8e929e";
             break;
         case '03n':
             sceneUrl = "https://prod.spline.design/bAKl-mw4DCzfDwRL/scene.splinecode";

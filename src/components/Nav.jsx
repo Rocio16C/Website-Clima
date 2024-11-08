@@ -52,7 +52,8 @@ function Nav({onSearch, onDateChange, availableDates, cities, setCities, setDays
       backgroundColor: cities.length > 0 ? `${colorsDays} !important` : '',
     }
   }));
-  
+
+
   return (
     <div>
     <nav className="navbar">

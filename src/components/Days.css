@@ -142,8 +142,8 @@
 
 @media (max-width: 767px) {
   .days {
-    transform: scale(0.8);
-    padding-left: 40px;
+    transform: scale(0.7);
+    padding-left: 0px;
     margin-top: 20px;
   }
 
@@ -153,19 +153,46 @@
   }
 
   .react-multiple-carousel__arrow--left {
-    left: calc(1% + 1px) !important;
+    left: calc(-15% + 1px) !important;
   }
 
   .react-multiple-carousel__arrow--right {
-    right: calc(1% + 1px) !important;
-  }
-
-  .react-multi-carousel-track {
-    margin-left: 20px !important;
-    margin-bottom: 30px !important;
+    right: calc(-15% + 1px) !important;
   }
 
   .react-multi-carousel-list{
     position: static !important;
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+}
+
+
+@media (max-width: 290px) {
+  .react-multi-carousel-track {
+    margin-left: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+
+@media (min-width: 290px) and (max-width: 399px) {
+  .react-multi-carousel-track {
+    margin-left: 60px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 464px) {
+  .react-multi-carousel-track {
+    margin-left: 100px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (min-width: 465px) and (max-width: 767px) {
+  .react-multi-carousel-track {
+    margin-left: 0px !important;
+    margin-bottom: 30px !important;
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './Card.css';
 import WaterDropOutlinedIcon from '@mui/icons-material/WaterDropOutlined';
 import AirIcon from '@mui/icons-material/Air';
@@ -52,6 +53,45 @@ export default function Card ({
     
     const windNumber = wind/1000
     const visibility = windNumber.toFixed(1)
+
+
+
+
+    
+    // ****** Cambio de margin-top en .card-title cuando se abre el calendario ******//
+    useEffect(() => {
+      const container = document.querySelector('.container');
+      const cardTitle = document.querySelector('.card-title');
+  
+      if (container && cardTitle) {
+        // Crea el observer para detectar la aparición/desaparición de .MuiDateCalendar-root
+        const observer = new MutationObserver(() => {
+          const calendarElement = document.querySelector('.container .MuiDateCalendar-root');
+          
+          // Verifica si la media query de dispositivos móviles está activa
+          const isMobile = window.matchMedia('(max-width: 768px)').matches;
+          
+          // Si está en la media query móvil y el calendario está visible
+          if (calendarElement && isMobile) {
+            cardTitle.style.marginTop = '190px';  // Ajusta según el comportamiento esperado
+          } else {
+            // Resetea el estilo cuando no está visible o no está en la media query móvil
+            cardTitle.style.marginTop = ''; 
+          }
+        });
+  
+        // Configura el observer para observar cambios en los hijos del contenedor
+        observer.observe(container, { childList: true, subtree: true });
+  
+        // Cleanup para evitar problemas de memoria
+        return () => observer.disconnect();
+      }
+    }, []);
+    //*********************************************************************************//
+    
+
+
+
     
     return (
       <div className="card">

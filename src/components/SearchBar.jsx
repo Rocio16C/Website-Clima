@@ -6,7 +6,6 @@ export default function SearchBar({onSearch, setCities, cities, setDays, setNavC
   const [city, setCity] = useState("");
   const [placeH, setPlaceH] = useState("");
 
-
   useEffect(() => {
     const time = setTimeout(() => {
       setPlaceH("Buscar ciudad...")
@@ -63,8 +62,8 @@ export default function SearchBar({onSearch, setCities, cities, setDays, setNavC
         <rect className="bar" />
         
         <g className="magnifier" style={{ translate: city ? '300px' : '0px'}}>
-          <circle className="glass" style={{ color: cities.length > 0 ? colorsDays : '' }}/>
-          <line className="handle" x1="32" y1="32" x2="44" y2="44" style={{ color: cities.length > 0 ? colorsDays : '' }}></line>
+          <circle className="glass" onClick={handleClick} style={{ color: cities.length > 0 ? colorsDays : '', fill: cities.length > 0 ? colorsDays : '', cursor: 'pointer', pointerEvents: 'auto' }}/>
+          <line className="handle" x1="32" y1="32" x2="44" y2="44" style={{ color: cities.length > 0 ? colorsDays : '', pointerEvents: 'none' }}></line>
         </g>
 
         <g className="sparks">
@@ -106,13 +105,6 @@ export default function SearchBar({onSearch, setCities, cities, setDays, setNavC
       disabled={disabledChange}
       style={{ outlineColor: cities.length > 0 ? colorsDays : '', fontWeight: 'bold'}}
       />
-
-      <button
-        onClick={handleClick}
-        className="circle-enviar"
-        aria-label="Search"
-      >
-      </button>
     </div>
   );
 };
