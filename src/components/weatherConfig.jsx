@@ -49,7 +49,7 @@ export function configureWeather(img) {
             colorCard = "#0E71A9";
             break;
         case '13d': //nieve
-            sceneUrl = "https://prod.spline.design/HabGz6InPO9kLAXX/scene.splinecode";
+            sceneUrl = "https://prod.spline.design/0nWwHKKTExTDvQcQ/scene.splinecode";
             background = "#D9D9D9";
             colorsDays = "#BED6D8";
             colorCard = "#ebf8ff";
@@ -61,13 +61,13 @@ export function configureWeather(img) {
             colorCard = "#E8E8F0";
             break;
         case '01n':
-            sceneUrl = "https://prod.spline.design/EJ7KvTPA9uEfQFix/scene.splinecode";
+            sceneUrl = "https://prod.spline.design/M2slgqrhnSZY-GJp/scene.splinecode";
             background = "#020620";
             colorsDays = "#060B14";
             colorCard = "#8e929e";
             break;
         case '02n':
-            sceneUrl = "https://prod.spline.design/3bqMunm7mLvgvaNg/scene.splinecode";
+            sceneUrl = "https://prod.spline.design/LxU5xf49TGIi2Jj5/scene.splinecode";
             background = "#020620";
             colorsDays = "#060B14";
             colorCard = "#8e929e";
@@ -103,7 +103,7 @@ export function configureWeather(img) {
             colorCard = "#0E71A9";
             break;
         case '13n':
-            sceneUrl = "https://prod.spline.design/3c4BVg869dxhwdRO/scene.splinecode";
+            sceneUrl = "https://prod.spline.design/Ae50GnVwakl6lo7I/scene.splinecode";
             background = "#D9D9D9";
             colorsDays = "#BED6D8";
             colorCard = "#ebf8ff";
