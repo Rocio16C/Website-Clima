@@ -176,24 +176,24 @@ body{
 /*CELULAR*/
 @media (max-width: 767px) {
   .row {
-    flex-wrap: nowrap;
-    width: 100%;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: -280px;
-    transform: scale(0.5);
     padding-left: 30px;
     padding-right: 30px;
+    transform: scale(0.45);
+    width: 100%;
   }
 
   .cardShadow {
+    margin-top: -235px;
     transform: scale(0.4);
-    margin-top: -225px;
   }
   
   .card-title {
+    font-size: 18.6px;
     margin-top: 25px;
-    font-size: 12.6px;
   }
 
   .temperatura {
