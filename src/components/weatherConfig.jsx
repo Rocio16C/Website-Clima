@@ -13,7 +13,7 @@ export function configureWeather(img) {
             colorCard = "#F6DD9A";
             break;
         case '02d': //algunas nubes
-            sceneUrl = "https://prod.spline.design/Z6nvgKTOrZM4lSwu/scene.splinecode";
+            sceneUrl = "https://prod.spline.design/OeOCnJqgXz2BZ7MH/scene.splinecode";
             background = "#1DC3E6";
             colorsDays = "#0063F8";
             colorCard = "#58DFFD";
@@ -52,7 +52,7 @@ export function configureWeather(img) {
             sceneUrl = "https://prod.spline.design/HabGz6InPO9kLAXX/scene.splinecode";
             background = "#D9D9D9";
             colorsDays = "#BED6D8";
-            colorCard = "#F4F8FA";
+            colorCard = "#ebf8ff";
             break;
         case '50d': //neblina
             sceneUrl = "https://prod.spline.design/hSKL3h6akWqnqlyl/scene.splinecode";
@@ -106,7 +106,7 @@ export function configureWeather(img) {
             sceneUrl = "https://prod.spline.design/3c4BVg869dxhwdRO/scene.splinecode";
             background = "#D9D9D9";
             colorsDays = "#BED6D8";
-            colorCard = "#F4F8FA";
+            colorCard = "#ebf8ff";
             break;
         case '50n':
             sceneUrl = "https://prod.spline.design/hSKL3h6akWqnqlyl/scene.splinecode";
